@@ -1,0 +1,2 @@
+form_read_bak:form_read_bak.c
+	gcc form_read_bak.c -o form_read_bak -I/usr/include/mysql -L/usr/lib64/mysql -lmysqlclient -lpthread -lxml2

@@ -1,0 +1,2 @@
+epoll:epoll.cpp
+	g++ -o epoll epoll.cpp wrap.cpp dodata.cpp -pthread -I/usr/include/mysql -L/usr/lib64/mysql -lmysqlclient

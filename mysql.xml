@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mysql_info>
+  <info id="1">
+    <user>root</user>
+    <password>Qin1&amp;Cheng2</password>
+    <database>test</database>
+    <ip>192.168.1.222</ip>
+  </info>
+</mysql_info>

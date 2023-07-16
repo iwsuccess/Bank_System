@@ -1,0 +1,28 @@
+#服务端
+cd bank_final
+./epoll
+
+
+#客户端
+cd bank_final 
+./client
+
+#测试指令
+GDRC_001;990000000034;20210724;-92.5;
+GDRC_002;000002227528;20220724;13512345678;
+
+
+#mysql登录
+mysql -u root -p 
+
+
+#查询客户信息表的手机号信息
+select * from userinfo1 where uid = '1715250';
+
+#查询账户信息余额、账户流水
+select * from accountfile  where account = '990000000034';
+select * from accountliquidfile  where account = '990000000034';
+
+
+#批量入金导入
+ ./form_read_bak /root/bank_final/new_data/批量入金1.txt
