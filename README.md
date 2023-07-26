@@ -11,4 +11,5 @@
 提取码：d861
 ### 数据表设计
 
-![](/images/database.png)
+
+<img src=image/Image 1.png>
