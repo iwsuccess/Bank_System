@@ -19,6 +19,8 @@
 ![](image/database.jpg)
 #### 基本业务逻辑设计
 ![](image/work.png)
+#### Epoll模型相关函数
+![](image/my_epoll.png)
 #### 主从数据库同步配置
 （1）master1:/etc/my.cnf
 ![](image/binlog1.png)
@@ -29,3 +31,5 @@
 ![](image/keepalived.png)
 - 双主热备实现流程图
 ![](image/keepalived2.png)
+#### 压力测试
+暂未实现
