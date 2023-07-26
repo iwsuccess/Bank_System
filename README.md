@@ -1,15 +1,31 @@
-# é¡¹ç›®ä»‹ç»
-åŸºäºŽäº‘æœåŠ¡å™¨çŽ¯å¢ƒå’Œæ•°æ®åŒæ­¥éœ€æ±‚ï¼Œè®¾è®¡äº†ä¸€å¥—å®Œæ•´çš„é“¶è¡Œä¸šåŠ¡äº¤æ˜“ç³»ç»Ÿçš„æ•°æ®åŒæ­¥è§£å†³æ–¹æ¡ˆã€‚ï¼ˆå¹¿ä¸œçœå†œä¿¡è”ç¤¾é‡‘èžç§‘æŠ€æ ¡å›­æŒ‘æˆ˜èµ›äº‘è®¡ç®—èµ›é“ï¼ˆå† å†› + æœ€ä½³äººæ°”å¥–ï¼‰ï¼‰
-### é¡¹ç›®ä¸»è¦å†…å®¹
-- é‡‡ç”¨äº‹åŠ¡æäº¤çš„æ–¹å¼ï¼Œå°†ç™¾ä¸‡çº§åˆ«çš„æ•°æ®é«˜æ•ˆçš„å¯¼å…¥åˆ°ä¸»å¤‡æ•°æ®åº“ä¸­ã€‚
-- å®žçŽ°äº†è´¦æˆ·å…¥é‡‘ï¼ŒæŸ¥è¯¢ä½™é¢ï¼Œæ›´æ–°å®¢æˆ·ä¿¡æ¯ç­‰é“¶è¡Œäº¤æ˜“ç³»ç»Ÿçš„ä¸šåŠ¡é€»è¾‘ã€‚
-- åŸºäºŽ Epoll æ¨¡åž‹å¼€å‘äº†åŽç«¯æœåŠ¡å™¨ã€‚
-- ä½¿ç”¨ Binlog å®žçŽ°äº†ä¸»å¤‡æ•°æ®åº“åŒæ­¥ï¼Œå°†ä¸»æ•°æ®åº“ä¸­çš„æ•°æ®å¿«é€Ÿï¼Œå¯é çš„åŒæ­¥åˆ°å¤‡ä»½æ•°æ®åº“ä¸­ã€‚
-- ä½¿ç”¨ Mysql çš„åŒä¸»æ¨¡å¼å’Œ Keepalived é…ç½®ï¼Œå®žçŽ°äº†åŒä¸»çƒ­å¤‡ï¼Œä¿è¯ç³»ç»Ÿçš„é«˜å¯ç”¨æ€§ã€‚
-### æ•°æ®é“¾æŽ¥ï¼š
-é“¾æŽ¥ï¼šhttps://pan.baidu.com/s/16WE1lGTLJwgX7dajDQZUIg 
-æå–ç ï¼šd861
-### æ•°æ®è¡¨è®¾è®¡
-
-
-<img src=image/Image 1.png>
+# ÏîÄ¿½éÉÜ
+»ùÓÚÔÆ·þÎñÆ÷»·¾³ºÍÊý¾ÝÍ¬²½ÐèÇó£¬Éè¼ÆÁËÒ»Ì×ÍêÕûµÄÒøÐÐÒµÎñ½»Ò×ÏµÍ³µÄÊý¾ÝÍ¬²½½â¾ö·½°¸¡££¨¹ã¶«Ê¡Å©ÐÅÁªÉç½ðÈÚ¿Æ¼¼Ð£Ô°ÌôÕ½ÈüÔÆ¼ÆËãÈüµÀ£¨¹Ú¾ü + ×î¼ÑÈËÆø½±£©£©
+### ÏîÄ¿ÒÀÀµ
+- Á½Ì¨ÔÆ·þÎñÆ÷
+- Mysql8.0.29
+- Keepalived v1.3.5
+- libxml2-2.8.0
+- gcc7&g++7
+### ÏîÄ¿Ö÷ÒªÄÚÈÝ
+- ²ÉÓÃÊÂÎñÌá½»µÄ·½Ê½£¬½«°ÙÍò¼¶±ðµÄÊý¾Ý¸ßÐ§µÄµ¼Èëµ½Ö÷±¸Êý¾Ý¿âÖÐ¡£
+- ÊµÏÖÁËÕË»§Èë½ð£¬²éÑ¯Óà¶î£¬¸üÐÂ¿Í»§ÐÅÏ¢µÈÒøÐÐ½»Ò×ÏµÍ³µÄÒµÎñÂß¼­¡£
+- »ùÓÚ Epoll Ä£ÐÍ¿ª·¢ÁËºó¶Ë·þÎñÆ÷¡£
+- Ê¹ÓÃ Binlog ÊµÏÖÁËÖ÷±¸Êý¾Ý¿âÍ¬²½£¬½«Ö÷Êý¾Ý¿âÖÐµÄÊý¾Ý¿ìËÙ£¬¿É¿¿µÄÍ¬²½µ½±¸·ÝÊý¾Ý¿âÖÐ¡£
+- Ê¹ÓÃ Mysql µÄË«Ö÷Ä£Ê½ºÍ Keepalived ÅäÖÃ£¬ÊµÏÖÁËË«Ö÷ÈÈ±¸£¬±£Ö¤ÏµÍ³µÄ¸ß¿ÉÓÃÐÔ¡£
+### Êý¾ÝÁ´½Ó£º
+Á´½Ó£ºhttps://pan.baidu.com/s/16WE1lGTLJwgX7dajDQZUIg 
+ÌáÈ¡Âë£ºd861
+#### Êý¾Ý±íÉè¼Æ£¨E-RÍ¼£©
+![](image/database.jpg)
+#### »ù±¾ÒµÎñÂß¼­Éè¼Æ
+![](image/work.png)
+#### Ö÷´ÓÊý¾Ý¿âÍ¬²½ÅäÖÃ
+£¨1£©master1:/etc/my.cnf
+![](image/binlog1.png)
+£¨2£©master2:/etc/my.cnf
+![](image/binlog2.png)
+#### Ë«Ö÷ÈÈ±¸ÅäÖÃ
+- »ù±¾ÐÅÏ¢
+![](image/keepalived.png)
+- Ë«Ö÷ÈÈ±¸ÊµÏÖÁ÷³ÌÍ¼
+![](image/keepalived2.png)
