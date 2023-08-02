@@ -31,5 +31,4 @@
 ![](image/keepalived.png)
 - 双主热备实现流程图
 ![](image/keepalived2.png)
-#### 压力测试
-暂未实现
+
